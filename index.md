@@ -85,7 +85,7 @@ Wir sind Test-Profis aus Leidenschaft mit einer fast 10-jährigen Berufs­erfahr
 Dabei profitieren unsere Kunden von einer breiten Wissenbasis und 
 unter­schiedlichen Spezialisierungen in unserem Team.
 
-{% assign colleagues = site.colleagues | sort: 'name') %}
+{% assign colleagues = site.colleagues | sort: 'name' %}
 {% for colleague in colleagues %}
   <div class="colleague">
       <h3 class="name">{{ colleague.name }} *</h3> 
@@ -145,59 +145,14 @@ Du bist auf deinem Gebiet ein Experte.
 
 Du bist jung oder jung geblieben.
 
-### Wir suchen: Agile Senior Tester
+{% assign jobs = site.jobs | sort: 'name' %}
+{% for job in jobs %}
+  <div class="job">
+      <h3 class="name">Wir suchen: {{ job.name }}</h3> 
+      {{ job.content | markdownify }}
+   </div>
+{% endfor %}
 
-Du verfügst über mehrjährige Erfahrung in Testprojekten und weißt, wie sich das 
-Projektgeschäft anfühlt. Du hast bereits (Test-)Teams geleitet oder einen 
-Teilbereich verantwortlich betreut. Du kannst gut mit deinen Kollegen umgehen 
-und scheust keine Präsentationen.
-
-Was du tun wirst:
-
-* Beratung einzelner Entwicklungseinheiten hinsichtlich der Prozesse, Methoden, 
-  Werkzeuge und Verfahren im Test
-* Weiterentwicklung von automatisierten Testframeworks
-* Erstellung neuer sowie Wartung bestehender Testfälle und Testskripte für 
-  manuelle sowie automatisierte Testdurchführung unter Berücksichtigung der 
-  Anforderungsdefinitionen
-* Auswertung, Dokumentation und Interpretation der Testergebnisse
-* Reporting der Ergebnisse
-
-Wen wir suchen:
-
-* Routinier im agilen Umfeld
-* fundierter Erfahrungsschatz im Testumfeld
-* sicherer Umgang mit Testautomatisierung
-
-### Wir suchen: Agile Junior Tester
-
-Du bist gerade frisch mit dem Studium fertig und möchtest im Projektgeschäft im 
-Bereich Testing arbeiten. Du bist aufgeschlossen und motiviert neue Themen zu 
-erlernen. Du kannst in einem bestehenden Testteam deine eigenen Erfahrungen 
-einbringen.
-
-Was du tun wirst:
-
-* Spezifikation, Durchführung und Dokumentation von Systemtests unter 
-  Berücksichtigung der Prozesse, Methoden und Werkzeuge im Kundenumfeld
-* Erstellung, Durchführung und Auswertung manueller sowie automatisierter Tests
-* Testfallverwaltung und -dokumentation
-* Unterstützung beim Aufbau von automatisierten Testframeworks
-* Kontinuierliche Wartung und Optimierung der Testskripte
-* Unterstützung des Projekts
-
-Wen wir suchen:
-
-* Unit-/Performance-/Integrations-/Funktions-/Stress- und Last-Tests sind dir 
-  vertraut
-* black box Tests, white box Tests, Überdeckungstest, Akzeptanztest und 
-  Schnittstellentests sind dir ein Begriff
-* du arbeitest dich schnell in die jeweils aktuell beim Kunden eingesetzten 
-  Testtools ein
-* Planung, Aufbau und Pflege von Testdaten
-* Umgang mit Fehler- und Konfigurationsmanagement
-* gute Programmierkenntnisse
-* Zertifikate (wünschenswert): ISTQB Certified Tester Foundation Level
 
 ## Kontakt.
 

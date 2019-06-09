@@ -30,6 +30,8 @@ markdown: kramdown
 collections_dir: _collections
 collections:
   colleagues:
+    output: false
+  jobs:
     output: true
     
 t:
