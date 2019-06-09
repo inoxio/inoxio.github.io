@@ -27,6 +27,11 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+collections_dir: _collections
+collections:
+  colleagues:
+    output: true
+    
 t:
   en:
     imprint:  "Imprint"

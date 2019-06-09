@@ -85,48 +85,14 @@ Wir sind Test-Profis aus Leidenschaft mit einer fast 10-jährigen Berufs­erfahr
 Dabei profitieren unsere Kunden von einer breiten Wissenbasis und 
 unter­schiedlichen Spezialisierungen in unserem Team.
 
-### Michael Kunze *
-
-* Jedi Grand Master for the old languages, SAP Sensei, Knowledge Champion.
-
-Experte für Last-, Stress- und Performancetests. Automatisierer mit Leib und 
-Seele. Spricht fließend SAP eCATT und lässt kein Problem ungelöst.
-
-Kann mit verbundenen Augen und einer Stoppuhr: die Perfomance eines komplexen 
-Systems messen.
-
-### Torsten Mangner *
-
-* Continuous Self-Improvement Guru. Culture Coach. Señor Agile Tester.
-
-Experte für Behavior Driven Development und Agiles Testen. Halb Tester, halb 
-Developer. Ist in den Skript­sprachen dieser Welt zu Hause.
-
-Kann mit verbundenen Augen, einem Stift und einem Zettel: Akzeptanz­kriterien in 
-auto­matisierte Akzeptanz­tests verwandeln.
-
-Mehr über Torsten gibt es auf seiner [Profilseite](https://tm.inoxio.de)
-
-### Meik Minks *
-
-* Agile Ninja, Linux Geek und Chief of Awesomeness.
-
-Experte für agiles Vorgehen, Routinier in Sachen DevOps und Testdesign. Ist 
-leidenschaftlicher Rails-Entwickler und findet immer etwas was man testen kann. 
-Er ist der Techniker der Firma.
-
-Kann mit verbundenen Augen und einem Taschenmesser: Einen Linux-Kernel 
-kompilieren.
-
-### Katrin Mangner *
-
-* Chief Assistant to General Management.
-
-Die gute Fee der Firma. Unser Mädchen für Alles. Ohne Sie könnten die anderen 
-einpacken.
-
-Kann mit verbundenen Augen und einem Kleinkind auf dem Arm: Eine ganze Firma am 
-Laufen halten.
+{% assign colleagues = site.colleagues | sort: 'name') %}
+{% for colleague in colleagues %}
+  <div class="colleague">
+      <h3 class="name">{{ colleague.name }} *</h3> 
+      <span class="title">* {{colleague.title}}</span>
+      {{ colleague.content | markdownify }}
+   </div>
+{% endfor %}
 
 ## Jobs
 
