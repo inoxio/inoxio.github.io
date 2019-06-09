@@ -1,8 +1,16 @@
 ## Services
 
-Bei uns finden Sie Unterstützung im Bereich der Qualitäts­sicherung von Softwareprojekten.
+Wir glauben fest daran, dass sich Qualität nicht nachträglich
+auf ein fertig entwickeltes Produkt "anwenden" lässt. Softwarequalität lässt 
+sich nur sicherstellen, wenn man ihr in jedem Schritt des gesamten Prozesses
+genügend Ausmerksamkeit schenkt.
 
-Den thematischen Schwerpunkt unserer Arbeit haben wir dabei auf folgende Kernpunkte gelegt.
+Bei uns finden Sie deshalb Unterstützung in nahezu allen Bereichen der 
+Softwareentwicklung. 
+
+### Agile Entwicklung
+
+...
 
 ### Agiles Testen
 
@@ -14,16 +22,16 @@ Gerne zeigen wir Ihnen wie Qualitätssicherung innerhalb eines Scrum-Teams
 funktionieren kann und dass Tests nicht immer wieder auf den nächsten Sprint 
 verschoben werden müssen.
 
-### Entwicklungs­nähe
+### ~~Entwicklungs­nähe~~
 
-Wenn sie Studenten zum Abklicken von Testplänen oder paragraphenreitende 
-Bürokraten suchen, sind sie bei uns falsch.
+~~Wenn sie Studenten zum Abklicken von Testplänen oder paragraphenreitende 
+Bürokraten suchen, sind sie bei uns falsch.~~
 
-Bei uns bekommen sie erfahrene agile Tester, die alle einen ausgeprägten 
+~~Bei uns bekommen sie erfahrene agile Tester, die alle einen ausgeprägten 
 Entwicklungs­hintergrund haben und deshalb sehr schnell mit ihrem Entwicklungsteam 
 an Lösungen arbeiten können, anstatt die Entwicklung zu bremsen. Der Umgang mit 
 Entwicklungs­werkzeugen sowie deren Funktionsweisen sind tägliches Handwerk für 
-unsere Tester.
+unsere Tester.~~
 
 ### Test­auto­matisierung
 
@@ -37,23 +45,7 @@ vollständigen Kontext zu überprüfen. Selenium, QF-Test, WebDriver oder
 QuickTestPro füllen diese Lücke und können ihnen helfen ihre Softwareprojekte 
 ganzheitlich automatisiert zu testen.
 
-### Last- und Stresstest
+### DevOps
 
-Die zufriedenstellende Leistungsfähigkeit einer Anwendung zu Spitzenlastzeiten 
-gehört zu den wichtigsten nicht-funktionalen Anforderungen.
+...
 
-Niemand möchte seine Kunden mit Softwareausfällen oder schlechten 
-Reaktionszeiten verärgern oder gar für immer verlieren.
-
-Schwachstellen zeigen wir durch die Anwendung erprobter Strategien und durch den 
-parallelen Einsatz geeigneter Tools wie Silk Performer oder HP LoadRunner auf.
-
-### Performance­test
-
-Definierte Performanceziele gehören im nicht-funktionalen Teil des Testprozesses 
-genauso zum Pflichtprogramm, wie Testspezifikationen oder Testprotokolle bei 
-funktionalen Tests.
-
-Durch langjährige Erfahrungen in diesem Bereich und durch die Betreuung diverser 
-Testsysteme unserer Kunden können wir die komplexen Sachverhalte eines 
-Performancetests analysieren und so Flaschenhälse aufdecken.
