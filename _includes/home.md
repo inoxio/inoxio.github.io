@@ -1,13 +1,14 @@
-Ihre Tester brauchen zu viel kostbare Zeit und testen oft an den falschen Stellen?
+# Beratung mit Qualität
 
-Sie benötigen kurzfristig kompetente Unterstützung in Ihrem Testteam?
+Wir helfen Softwareunternehmen in Qualitätsfragen. 
 
-Sie suchen erfahrene Test-Experten um eine Testinfrastruktur aufzubauen?
+Ganzheitliche Beratung von der Designphase, über die Entwicklung und die 
+Qualitätssicherung bishin zum Betrieb der fertigen Softwarelösung.
 
-# Willkommen bei inoxio!
+## Über uns
 
 Wir sind ein bundesweit tätiges Beratungsunternehmen mit dem Schwerpunkt auf 
-Softwarequalitätssicherung. Wir unterstützen unsere Kunden direkt vor Ort in den 
-Testteams. Besonderes Know-How haben unsere Test-Experten dabei im Bereich 
-agiles Testen, Test­automatisierung sowie bei Last-, Performance- und 
-Stresstests.
+Softwarequalität. Wir unterstützen unsere Kunden direkt vor Ort in ihren
+cross-funktionalen Teams. Besonderes Know-How haben unsere Experten 
+dabei in den Bereichen agile Softwareentwicklung, agiles Testen, 
+Test­automatisierung sowie beim Betrieb von verteilten Systemen in der Cloud.
