@@ -1,5 +1,5 @@
 ---
-name: Junior Agile Tester
+name: Junior Agile TesterIn
 ---
 
 Du bist gerade frisch mit dem Studium fertig und möchtest im Projektgeschäft im 

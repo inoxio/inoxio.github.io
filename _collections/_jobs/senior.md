@@ -1,5 +1,5 @@
 ---
-name: Senior Agile Tester
+name: Senior Agile TesterIn
 ---
 
 Du verfügst über mehrjährige Erfahrung in Testprojekten und weißt, wie sich das 
