@@ -1,12 +1,11 @@
 ---
 name: Junior Agile TesterIn
+summary: Du bist gerade frisch mit dem Studium fertig und möchtest im Projektgeschäft im 
+         Bereich Testing arbeiten. Du bist aufgeschlossen und motiviert neue Themen zu 
+         erlernen. Du kannst in einem bestehenden Testteam deine eigenen Erfahrungen 
+         einbringen.
+layout: job
 ---
-
-Du bist gerade frisch mit dem Studium fertig und möchtest im Projektgeschäft im 
-Bereich Testing arbeiten. Du bist aufgeschlossen und motiviert neue Themen zu 
-erlernen. Du kannst in einem bestehenden Testteam deine eigenen Erfahrungen 
-einbringen.
-
 Was du tun wirst:
 
 * Spezifikation, Durchführung und Dokumentation von Systemtests unter 

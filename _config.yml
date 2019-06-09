@@ -33,11 +33,3 @@ collections:
     output: false
   jobs:
     output: true
-    
-t:
-  en:
-    imprint:  "Imprint"
-    privacy:  "Privacy"
-  de:
-    imprint:  "Impressum"
-    privacy:  "Datenschutz"

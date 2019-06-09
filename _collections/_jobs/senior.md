@@ -1,12 +1,11 @@
 ---
 name: Senior Agile TesterIn
+summary: Du verfügst über mehrjährige Erfahrung in Testprojekten und weißt, wie sich das 
+         Projektgeschäft anfühlt. Du hast bereits (Test-)Teams geleitet oder einen 
+         Teilbereich verantwortlich betreut. Du kannst gut mit deinen Kollegen umgehen 
+         und scheust keine Präsentationen.
+layout: job
 ---
-
-Du verfügst über mehrjährige Erfahrung in Testprojekten und weißt, wie sich das 
-Projektgeschäft anfühlt. Du hast bereits (Test-)Teams geleitet oder einen 
-Teilbereich verantwortlich betreut. Du kannst gut mit deinen Kollegen umgehen 
-und scheust keine Präsentationen.
-
 Was du tun wirst:
 
 * Beratung einzelner Entwicklungseinheiten hinsichtlich der Prozesse, Methoden, 

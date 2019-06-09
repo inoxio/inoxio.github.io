@@ -53,6 +53,7 @@ Du bist jung oder jung geblieben.
 {% for job in jobs %}
   <div class="job">
       <h3 class="name">Wir suchen: {{ job.name }}</h3> 
-      {{ job.content | markdownify }}
+      {{ job.summary | markdownify }}
+      <a href="{{ job.url }}">Mehr über diese Stelle erfahren ...</a>
    </div>
 {% endfor %}
