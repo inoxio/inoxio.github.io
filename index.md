@@ -5,6 +5,8 @@ lang: de
 ---
 {% include home.md %}
 
+{% include about.md %}
+
 {% include services.md %}
 
 {% include team.md %}

@@ -31,5 +31,7 @@ collections_dir: _collections
 collections:
   colleagues:
     output: false
+  claims:
+    output: false
   jobs:
     output: true
