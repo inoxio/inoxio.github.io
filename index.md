@@ -7,6 +7,8 @@ lang: de
 
 {% include about.md %}
 
+{% include beliefs.md %}
+
 {% include services.md %}
 
 {% include team.md %}
