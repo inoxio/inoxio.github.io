@@ -11,8 +11,8 @@ section#hero {
   img#claimimage {
 
     @include md {
+      flex: 0 0 auto;
       width: 400px;
-      height: 100%;
       margin-left: 20px;
     }
 

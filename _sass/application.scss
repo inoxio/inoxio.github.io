@@ -9,12 +9,31 @@ body {
 }
 
 main {
-  margin: 20px auto;
-  max-width: 1000px;
+  margin: 10px 10px;
+  @include md {
+    margin: 20px auto;
+    max-width: 1000px;
+  }
 }
 
 h1, h2, h3 {
   text-align: center;
+}
+
+footer {
+  font-size: 75%;
+  text-align: center;
+  color: #888;
+
+  ul {
+    padding: 0;
+    margin-bottom: 0;
+
+    li {
+      list-style: none;
+      display: inline;
+    }
+  }
 }
 
 @import "hero";
