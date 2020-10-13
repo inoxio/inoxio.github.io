@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'de' }}">
-
-  <head>
+<head>
+    <title>{{ site.title }}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  </head>
+    <link rel="icon" type="image/png" href="{{ '/assets/favicon_32_gray.png' | relative_url }}">
+</head>
 
-  <body>
-    <main>
-        {{ content }}
-    </main>
+<body>
+<main>
+    {{ content }}
+</main>
 
-    {%- include footer.html -%}
+{%- include footer.html -%}
 
-  </body>
-  <script src="{{ '/assets/application.js' | relative_url }}"></script>
+</body>
+<script src="{{ '/assets/application.js' | relative_url }}"></script>
 
 </html>

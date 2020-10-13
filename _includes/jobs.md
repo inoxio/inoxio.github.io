@@ -11,7 +11,7 @@ Wir sind Test-Profis mit einer über 10-jährigen Berufs­erfahrung, die im Febr
 unsere Kunden meist direkt vor Ort in den Testteams.
 
 Besonderes Know-How haben wir uns über die Jahre in den Bereichen Agiles 
-Test­management, Test­­automatisierung sowie bei Last-, Performance- und 
+Test­management, Test­automatisierung sowie bei Last-, Performance- und 
 Stress­tests angeeignet.
 
 ### Unterwegs in Deutschland

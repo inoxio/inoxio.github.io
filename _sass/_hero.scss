@@ -1,0 +1,22 @@
+section#hero {
+
+  @include md {
+    display: flex;
+  }
+
+  .heading {
+    flex: 1 1 auto;
+  }
+
+  img#claimimage {
+
+    @include md {
+      width: 400px;
+      height: 100%;
+      margin-left: 20px;
+    }
+
+    width: 100%;
+  }
+
+}

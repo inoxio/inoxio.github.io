@@ -3,7 +3,9 @@ layout: default
 ref: index
 lang: de
 ---
-{% include home.md %}
+<section id="hero">
+{% include hero.html %}
+</section>
 
 {% include about.md %}
 

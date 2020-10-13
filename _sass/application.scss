@@ -17,27 +17,4 @@ h1, h2, h3 {
   text-align: center;
 }
 
-section.title {
-
-  @include md {
-    display: flex;
-  }
-
-  .text {
-    flex: 1 1 auto;
-  }
-
-  .image {
-    text-align: center;
-    img {
-      width: 300px;
-      margin-left: 20px;
-    }
-  }
-
-  #claims {
-    li {
-      display: none;
-    }
-  }
-}
+@import "hero";
