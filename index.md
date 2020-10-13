@@ -4,17 +4,29 @@ ref: index
 lang: de
 ---
 <section id="hero">
-{% include hero.html %}
+{% include sections/hero.html %}
 </section>
 
-{% include about.md %}
+<section id="about" markdown="1">
+{% include sections/about.md %}
+</section>
 
-{% include beliefs.md %}
+<section id="beliefs" markdown="1">
+{% include sections/beliefs.md %}
+</section>
 
-{% include services.md %}
+<section id="services" markdown="1">
+{% include sections/services.md %}
+</section>
 
-{% include team.md %}
+<section id="team" markdown="1">
+{% include sections/team.md %}
+</section>
 
-{% include jobs.md %}
+<section id="jobs" markdown="1">
+{% include sections/jobs.md %}
+</section>
 
-{% include contact.md %}
+<section id="contact" markdown="1">
+{% include sections/contact.md %}
+</section>
