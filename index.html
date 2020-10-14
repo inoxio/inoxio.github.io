@@ -3,6 +3,21 @@ layout: default
 ref: index
 lang: de
 ---
+<nav class="diagonals" id="menu">
+    <div class="content">
+        <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#beliefs">Überzeugungen</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#jobs">Jobs</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </div>
+</nav>
+
 <section id="hero">
     {% include sections/hero.html %}
 </section>

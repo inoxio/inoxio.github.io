@@ -35,5 +35,5 @@ function showClaims() {
     const claim = claims.random();
     document.getElementById("claimtext").textContent = claim.heading;
     document.getElementById("claimimage").src = `/assets/${claim.image}`;
-    setTimeout(showClaims, 2000);
+    setTimeout(showClaims, 5000);
 }

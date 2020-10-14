@@ -19,11 +19,20 @@ h1, h2, h3 {
   clip-path: polygon(0% 5vw, 100% 0%, 100% calc(100% - 5vw), 0% 100%);
 
   & + .diagonals {
-    margin-top: -4vw;
+    margin-top: calc(-5vw + 10px);
+  }
+  &:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5vw), 0% 100%);
+  }
+  &:last-child {
+    clip-path: polygon(0% 5vw, 100% 0%, 100% 100%, 0% 100%);
+    padding-bottom: 0;
   }
 }
 
-section, footer {
+section, footer, nav {
   .content {
     max-width: 1000px;
     margin: 0 auto;
@@ -35,14 +44,14 @@ section, footer {
 }
 
 footer.diagonals {
-  clip-path: polygon(0% 5vw, 100% 0%, 100% 100%, 0% 100%);
-  padding-bottom: 0;
-
   font-size: 75%;
   text-align: center;
   background-color: #aaa;
   color: white;
-  a { color: inherit}
+
+  a {
+    color: inherit
+  }
 
   ul {
     padding: 0;
@@ -55,5 +64,6 @@ footer.diagonals {
   }
 }
 
+@import "nav";
 @import "hero";
 @import "about";

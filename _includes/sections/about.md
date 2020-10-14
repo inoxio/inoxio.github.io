@@ -1,6 +1,6 @@
 ## Beratung mit Qualität
 
-Wir helfen Softwareunternehmen in Qualitätsfragen. 
+Willkommen bei der _inoxio Quality Services GmbH_. Wir helfen Software­unternehmen in Qualitäts­fragen. 
 
 Ganzheitliche Beratung von der Designphase, über die Entwicklung und die 
 Qualitätssicherung bishin zum Betrieb der fertigen Softwarelösung.

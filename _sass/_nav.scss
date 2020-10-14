@@ -1,0 +1,46 @@
+nav.diagonals {
+  ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    @include md {
+      text-align: right;
+    }
+    li {
+      list-style: none;
+      display: inline;
+    }
+  }
+
+  background-color: #888;
+
+  .content {
+    padding-bottom: 0.25em;
+
+    color: white;
+
+    a {
+      color: inherit
+    }
+
+    img {
+      width: 90%;
+      max-width: 400px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include md {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      img {
+        flex: 0 0 auto;
+        width: 250px;
+        margin: 0;
+      }
+    }
+
+  }
+}
