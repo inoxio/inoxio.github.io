@@ -23,18 +23,26 @@ h1, h2, h3 {
   }
 }
 
-section {
+section, footer {
   .content {
-    margin: 0 auto;
-    padding: 1.5em;
     max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    @include md {
+      padding: 1.5em;
+    }
   }
 }
 
-footer {
+footer.diagonals {
+  clip-path: polygon(0% 5vw, 100% 0%, 100% 100%, 0% 100%);
+  padding-bottom: 0;
+
   font-size: 75%;
   text-align: center;
-  color: #888;
+  background-color: #aaa;
+  color: white;
+  a { color: inherit}
 
   ul {
     padding: 0;

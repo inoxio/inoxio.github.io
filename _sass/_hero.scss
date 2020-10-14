@@ -1,11 +1,14 @@
 section#hero {
+  margin: 10px auto 0;
 
   @include md {
     display: flex;
+    max-width: 1200px;
   }
 
   .heading {
     flex: 1 1 auto;
+    padding: 1em;
   }
 
   img#claimimage {
@@ -13,7 +16,7 @@ section#hero {
     @include md {
       flex: 0 0 auto;
       width: 400px;
-      margin-left: 20px;
+      margin-left: 1em;
     }
 
     width: 100%;
