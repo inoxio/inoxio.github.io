@@ -1,0 +1,50 @@
+---
+layout: default
+ref: index
+lang: de
+---
+<section id="hero">
+    {% include sections/hero.html %}
+</section>
+
+<section class="diagonals" id="about">
+    <div class="content">
+        {% capture my_include %}{% include sections/about.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section class="diagonals" id="beliefs">
+    <div class="content">
+        {% capture my_include %}{% include sections/beliefs.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section id="services">
+    <div class="content">
+        {% capture my_include %}{% include sections/services.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section class="diagonals" id="team">
+    <div class="content">
+        {% capture my_include %}{% include sections/team.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section id="jobs">
+    <div class="content">
+        {% capture my_include %}{% include sections/jobs.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section id="contact">
+    <div class="content">
+        {% capture my_include %}{% include sections/contact.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
