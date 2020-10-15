@@ -1,0 +1,11 @@
+---
+layout: default
+ref: jobs
+lang: de
+---
+<section id="jobs">
+    <div class="content">
+        {% capture my_include %}{% include sections/jobs.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>

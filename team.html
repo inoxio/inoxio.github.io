@@ -1,0 +1,11 @@
+---
+layout: default
+ref: team
+lang: de
+---
+<section class="diagonals" id="team">
+    <div class="content">
+        {% capture my_include %}{% include sections/team.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
