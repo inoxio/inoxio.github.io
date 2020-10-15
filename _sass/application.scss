@@ -1,8 +1,15 @@
 @charset "utf-8";
 @import "breakpoints";
 
+:root {
+  --primary-color: #d02858;
+  --secondary-color: #625257;
+  --primary-bg-color: white;
+  --secondary-bg-color: #eee;
+}
+
 body {
-  background-color: white;
+  background-color: var(--primary-bg-color);
   font-size: 150%;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
@@ -10,11 +17,12 @@ body {
 
 h1, h2, h3 {
   text-align: center;
+  color: var(--primary-color);
 }
 
 .diagonals {
   margin-top: 5vw;
-  background-color: #eee;
+  background-color: var(--secondary-bg-color);
   padding: 5vw 0 5vw;
   clip-path: polygon(0% 5vw, 100% 0%, 100% calc(100% - 5vw), 0% 100%);
 
@@ -46,7 +54,7 @@ section, footer, nav {
 footer.diagonals {
   font-size: 75%;
   text-align: center;
-  background-color: #aaa;
+  background-color: var(--primary-color);
   color: white;
 
   a {

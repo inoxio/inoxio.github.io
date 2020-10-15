@@ -1,5 +1,11 @@
 section#about {
-  background-color: #888;
+  background: var(--primary-color) linear-gradient(45deg, var(--secondary-color) 0%, var(--primary-color) 75%);
+  color: white;
+
+  h1, h2, h3 {
+    color: inherit;
+  }
+
   .content {
     color: white;
   }
