@@ -12,6 +12,18 @@ section#hero {
     .heading {
       flex: 1 1 auto;
       padding: 1em;
+
+      @include md {
+        h1 {
+          text-align: left;
+        }
+      }
+    }
+
+    #claimtext {
+      font-style: italic;
+      font-weight: bold;
+      color: var(--primary-color);
     }
 
     img#claimimage {
