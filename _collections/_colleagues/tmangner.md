@@ -8,4 +8,4 @@ Developer. Ist in den Skript­sprachen dieser Welt zu Hause.
 Kann mit verbundenen Augen, einem Stift und einem Zettel: Akzeptanz­kriterien in 
 auto­matisierte Akzeptanz­tests verwandeln.
 
-Mehr über Torsten gibt es auf seiner [Profilseite](https://tm.inoxio.de)
+Mehr über Torsten gibt es auf seiner [Profilseite](https://tm.inoxio.de).

@@ -6,4 +6,4 @@ Experte für Service-Delivery und Clouds, Routinier in Sachen agiler Test, DevOp
 
 Kann mit verbundenen Augen und einem Taschenmesser: Einen Linux-Kernel in einer Pipeline kompilieren.
 
-Mehr über Meik gibt es auf seiner [Profilseite](https://me.meik.org)
+Mehr über Meik gibt es auf seiner [Profilseite](https://me.meik.org).
