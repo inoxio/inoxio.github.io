@@ -1,9 +1,9 @@
 ## Team
 
-Wir sind Test-Profis aus Leidenschaft mit einer fast 10-jährigen Berufs­erfahrung.
+Wir sind Test-Profis aus Leidenschaft mit einer weit über 10-jährigen Berufserfahrung.
 
-Dabei profitieren unsere Kunden von einer breiten Wissenbasis und 
-unter­schiedlichen Spezialisierungen in unserem Team.
+Unsere Kunden profitieren von einer breiten Wissenbasis und 
+unterschiedlichen Spezialisierungen in unserem Team.
 
 {% assign colleagues = site.colleagues | sort: 'name' %}
 {% for colleague in colleagues %}
