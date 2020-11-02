@@ -1,10 +1,9 @@
 ---
 name: Meik Minks
-title: Agile Ninja, Linux Geek und Chief of Awesomeness.
+title: Delivery Engineer, Agile Tester-Ninja, Continuous * (everything) Experte und Chief of Awesomeness.
 ---
-Experte für agiles Vorgehen, Routinier in Sachen DevOps und Testdesign. Ist 
-leidenschaftlicher Rails-Entwickler und findet immer etwas was man testen kann. 
-Er ist der Techniker der Firma.
+Experte für Service-Delivery und Clouds, Routinier in Sachen agiler Test, DevOps und Continous Delivery. Ist leidenschaftlicher Ruby- und Skript-Entwickler. Findet immer etwas was man testen kann. Er ist der Techniker der Firma.
 
-Kann mit verbundenen Augen und einem Taschenmesser: Einen Linux-Kernel 
-kompilieren.
+Kann mit verbundenen Augen und einem Taschenmesser: Einen Linux-Kernel in einer Pipeline kompilieren.
+
+Mehr über Meik gibt es auf seiner [Profilseite](https://me.meik.org)
