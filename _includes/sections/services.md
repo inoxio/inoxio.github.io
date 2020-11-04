@@ -28,13 +28,9 @@ anderes sein, als er ursprünglich wollte._
 
 ### Agiles Testen
 
-Auch wenn uns Wasserfall und V-Modell keine Fremdworte und wir in klassischen 
-Softwareprojekten groß geworden sind, fühlen wir uns seit geraumer Zeit im agilen 
-Umfeld zu Hause.
+~~Auch wenn uns Wasserfall und V-Modell keine Fremdworte und wir in klassischen Softwareprojekten groß geworden sind, fühlen wir uns seit geraumer Zeit im agilen Umfeld zu Hause.~~
 
-Gerne zeigen wir Ihnen wie Qualitätssicherung innerhalb eines agilen Teams 
-funktionieren kann und dass Qualitätsexperten mehr für ihren Entwicklungszyklus
-leisten können als Tests durchzuführen und Berichte zu schreiben. 
+~~Gerne zeigen wir Ihnen wie Qualitätssicherung innerhalb eines agilen Teams funktionieren kann und dass Qualitätsexperten mehr für ihren Entwicklungszyklus leisten können als Tests durchzuführen und Berichte zu schreiben.~~ 
 
 Mit einem prall gefüllten Werkzeugkoffer unterstützen unsere 
 Kollegen in Design- und Planungsphasen, hinterfragen kritisch, definieren 
