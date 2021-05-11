@@ -1,0 +1,14 @@
+article.legal {
+  @include lg {
+    max-width: 950px;
+    margin: 1em auto;
+  }
+  margin: 1em 1em;
+
+  font-size: 90%;
+
+  table {
+    border-spacing: 20px;
+    font-size: 80%;
+  }
+}
