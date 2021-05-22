@@ -2,8 +2,8 @@
 @import "breakpoints";
 
 :root {
-  --primary-color: #d02858;
-  --secondary-color: #625257;
+  --primary-color: #da184f;
+  --secondary-color: #1bcad6;
   --primary-bg-color: white;
   --secondary-bg-color: #eee;
 }
@@ -11,11 +11,13 @@
 body {
   background-color: var(--primary-bg-color);
   font-size: 150%;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
   color: var(--primary-color);
 }
@@ -40,7 +42,9 @@ h1, h2, h3 {
   }
 }
 
-section, footer, nav {
+section,
+footer,
+nav {
   .content {
     max-width: 1000px;
     margin: 0 auto;
@@ -58,7 +62,7 @@ footer.diagonals {
   color: white;
 
   a {
-    color: inherit
+    color: inherit;
   }
 
   ul {
