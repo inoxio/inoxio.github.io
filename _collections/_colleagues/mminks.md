@@ -1,7 +1,9 @@
 ---
 name: Meik Minks
 title: Delivery Engineer, Agile Tester-Ninja, Continuous * (everything) Experte und Chief of Awesomeness.
+avatar: assets/img/tmangner.png
 ---
+
 Experte für Service-Delivery und Clouds, Routinier in Sachen agiler Test, DevOps und Continuous Delivery. Ist leidenschaftlicher Ruby- und Skript-Entwickler. Findet immer etwas was man testen kann. Er ist der Techniker der Firma.
 
 Kann mit verbundenen Augen und einem Taschenmesser: Einen Linux-Kernel in einer Pipeline kompilieren.

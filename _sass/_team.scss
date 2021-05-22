@@ -1,7 +1,15 @@
 section#team {
-  .title {
-    display: block;
-    text-align: center;
-    font-style: italic;
+  .colleague {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      border-radius: 50%;
+    }
+    .title {
+      display: block;
+      text-align: center;
+      font-style: italic;
+    }
   }
 }
