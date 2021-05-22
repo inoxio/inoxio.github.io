@@ -11,7 +11,11 @@ unterschiedlichen Spezialisierungen in unserem Team.
   <div class="colleague">
     <h3 class="name">{{ colleague.name }} *</h3> 
     <span class="title">* {{colleague.title}}</span>
-    <img src="{{ colleague.avatar | relative_url }}" />
-    {{ colleague.content | markdownify }}
+    <div class="content">
+      <img src="{{ colleague.avatar | relative_url }}" />
+      <div class="text">
+        {{ colleague.content | markdownify }}
+      </div>
+    </div>
   </div>
 {% endfor %}
