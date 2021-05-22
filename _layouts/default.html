@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'de' }}">
-<head>
+  <head>
     <title>{{ site.title }}</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-    <link rel="icon" type="image/png" href="{{ '/assets/favicon_32_gray.png' | relative_url }}">
-</head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ '/assets/favicon_32_gray.png' | relative_url }}"
+    />
 
-<body>
-<main>
-    {%- include nav.html -%}
+    <script src="https://use.fontawesome.com/c4c1fecfa7.js"></script>
+  </head>
 
-    {{ content }}
-
-    {%- include footer.html -%}
-</main>
-
-</body>
-<script src="{{ '/assets/application.js' | relative_url }}"></script>
-
+  <body>
+    <main>
+      {%- include nav.html -%} {{ content }} {%- include footer.html -%}
+    </main>
+  </body>
+  <script src="{{ '/assets/application.js' | relative_url }}"></script>
 </html>

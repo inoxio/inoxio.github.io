@@ -1,24 +1,25 @@
-## Kontakt.
+<div>
+  <a href="mailto:info@inoxio.de">
+    <i class="fa fa-envelope" ></i>
+    info@inoxio.de
+  </a>
+  <br/>
+  <a href="tel:+49-361-4306456">
+    <i class="fa fa-phone" ></i>
+    +49-361-4306456
+  </a>
+</div>
 
-Kommunikation ist alles! Wir stehen mit einer Vielzahl von Kommunika­tionswegen 
-bereit, um ihre Anfragen schnell und freundlich zu beantworten.
+<div id="address">  
+  inoxio Quality Services GmbH<br/>
+  Anger 13<br/>
+  99084 Erfurt<br/>
+  Germany
+</div>
 
-Testen Sie einfach unser Team …
-
-### E-Mail.
-[info@inoxio.de](mailto:info@inoxio.de)
-
-### Telefon
-
-Tel. [+49-361-4306456](tel:+49-361-4306456)
-
-### Briefpost
-
-inoxio Quality Services GmbH  
-Anger 13  
-99084 Erfurt  
-Germany
-
-### Soziale Netze
-
-[Twitter](https://twitter.com/inoxio)
+<div>
+  <a href="https://twitter.com/inoxio">
+    <i class="fa fa-twitter"></i>
+    Twitter
+  </a>
+</div>
