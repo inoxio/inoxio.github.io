@@ -1,13 +1,14 @@
 ---
 name: Torsten Mangner
-title: Continuous Self-Improvement Guru. Culture Coach. Señor Agile Tester.
 avatar: assets/img/tmangner.png
 ---
 
-Experte für Behavior Driven Development und Agiles Testen. Halb Tester, halb
-Developer. Ist in den Skript­sprachen dieser Welt zu Hause.
+Experte für agile Software&shy;entwicklung und Software&shy;qualität.
+Entwickelt vom Frontend für Buchhaltungs&shy;systeme über Recommendation-Engines
+für e-Commerce-Plattformen bishin zum Backend für Mobile Games fast alles.
+Ist in nahezu allen Programmier&shy;sprachen dieser Welt zu Hause.
 
-Kann mit verbundenen Augen, einem Stift und einem Zettel: Akzeptanz­kriterien in
-auto­matisierte Akzeptanz­tests verwandeln.
+Kann mit verbundenen Augen und mit einer Hand auf dem Rücken:
+Anforderungen in verständlichen und wartbaren Code verwandeln.
 
 Mehr über Torsten gibt es auf seiner [Profilseite](https://tm.inoxio.de).
