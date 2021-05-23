@@ -1,6 +1,5 @@
 section#hero {
   background-color: var(--primary-bg-color);
-  //color: white;
 
   .content {
     @include md {
@@ -22,12 +21,10 @@ section#hero {
 
     #claimtext {
       font-style: italic;
-      font-weight: bold;
       color: var(--primary-color);
     }
 
     img#claimimage {
-
       @include md {
         flex: 0 0 auto;
         width: 400px;
