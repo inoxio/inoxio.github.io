@@ -6,52 +6,75 @@ lang: de
 
 <section class="diagonals" >
   <div class="content" markdown="1">
-## Hi 👋,
+#### Hi 👋,
 
-mein Name ist Meik Minks. Ich bin ein Freelance CEO und ich arbeite seit etwa 10 Jahren als Delivery Engineer, Agile Tester, Continuous \* (everything) Experte und Scrum Master bei diversen Projekten in ganz Deutschland.
+mein Name ist Meik Minks. Ich arbeite seit etwa 10 Jahren bei [inoxio](https://www.inoxio.de/) als Delivery Engineer, 
+Agile Tester, Continuous \* (_everything_) Experte und Scrum Master bei diversen Projekten in ganz Deutschland.
 
 Die agile Arbeitsweise bzw. die agile Entwicklung von Software in einem Team habe ich glücklicherweise schon frühzeitig kennen und schätzen gelernt. Ich bin überzeugt, dass sie das Beste aus einem cross-funktionalen, diversen Verbund von Menschen herauskitzelt und am Ende ein besseres Produkt entstehen lassen kann.
 
-Sowohl aus meiner Überzeugung heraus als auch aus meiner praktischen beruflichen Entwicklung kann ich sagen, dass ich gerne ein Allrounder in der Softwareentwicklung bin. Für mich gibt es keine getrennten Rollen von Testern, Entwicklern oder Administratoren. Ein Optimum ist dann erreicht, wenn diese drei Rollen während der Bearbeitung eines Issues fließend von einer oder besser zwei Personen eingenommen werden.
+Sowohl aus meiner Überzeugung heraus als auch aus meiner praktischen beruflichen Entwicklung kann ich sagen, dass 
+ich gerne ein Allrounder in der Softwareentwicklung bin. Für mich gibt es keine getrennten Rollen von Testern, 
+Entwicklern oder Administratoren. Ein Optimum ist dann erreicht, wenn diese drei Rollen während der Bearbeitung 
+eines Issues fließend von einer oder besser zwei Personen gleichzeitig eingenommen werden.
 
-Kontaktieren Sie mich gern oder folgen Sie mir auf Github, XING, Twitter oder Instagram.
-Wie kann ich helfen?
+#### Wie kann ich helfen?
 
 Ich bin immer offen für spannende Teams und Aufgaben, bei denen am Ende ein cooles Produkt entstehen soll. Ich trage dazu aktiv bei und verhelfe mit der Weitergabe meines Wissens zu einem besseren Ergebnis für die Stakeholder.
 
+[Kontaktieren](mailto:mminks@inoxio.de) Sie mich gern oder folgen Sie mir auf [Github](https://github.com/mminks), [XING](https://www.xing.com/profile/Meik_Minks/cv), [Twitter](https://twitter.com/meikminks) oder
+[Instagram](https://www.instagram.com/meik_m_punkt/).
+
   </div>
+
+  <img src="{{ "assets/img/tmangner.png" | relative_url }}" />
 </section>
 
 <section class="diagonals" id="mminks-profile">
   <div class="content" markdown="1">
 
-Mein Profil:
+##### Mein Profil:
 
-Entwicklung und Migration von (Microservice-)Plattformen: Egal ob on-premises oder Cloud-basiert; klassisch oder in Amazon Web Services (AWS), Microsoft Azure oder Google Cloud Platform. Manuell war gestern! _Infrastruktur ist nichts anderes als Code_ und genau so soll sie auch behandelt werden. Es bereitet mir Spaß, Dinge wachsen und sich verbessern zu sehen. Terraform und CloudFormation sind hierbei die Tools meiner Wahl.
-Entwicklung und Design von Continuous Integration, Delivery und Deployment Pipelines: Nichts ist schlimmer als Ewigkeiten an etwas zu entwickeln, ohne echtes Feedback von Kunden zu erhalten. Pipelines helfen, Services automatisiert und in optimaler, gleichbleibender Qualität zur Verfügung zu stellen. Sie geben schnelle Rückmeldung und sind essentiell um zu erfahren, ob die eingeschlagene Richtung stimmt oder nicht.
+* __Entwicklung und Migration von (Microservice-)Plattformen__: Egal ob on-premises oder Cloud-basiert; klassisch oder in Amazon Web Services (AWS), Microsoft Azure oder Google Cloud Platform. Manuell war gestern! _Infrastruktur ist nichts anderes als Code_ und genau so soll sie auch behandelt werden. Es bereitet mir Spaß, Dinge wachsen und sich verbessern zu sehen. Terraform und CloudFormation sind hierbei die Tools meiner Wahl.
 
-Erfahrener Test-Experte: Ich möchte bei meinen eigenen Tätigkeiten mit gutem Beispiel vorangehen und selbst sauberen, lesbaren und einfachen Quellcode schreiben, der so am Ende gut wartbar ist. Die richtigen Tests zur richtigen Zeit helfen mir und unserem Team, anstatt das sie uns ausbremsen oder behindern. Im Pair und im allgemeinen Austausch versuche ich mein „Tester-Auge“ und das notwendige, hinterfragende Denken eines Testers zu verbreiten. Darüber hinaus sind schnelle und ständig laufende Tests in unseren Continuous Delivery Pipelines unabdingbar, um die Qualität zu erhöhen und das Risiko zu minimieren.
-Entwickler mit Fokus auf Qualität: Ich würde mich zwar niemals als Vollblutentwickler bezeichnen, trotzdem wechsle ich gern mal in die Perspektive eines Entwicklers. Mit Ruby oder JavaScript habe ich dabei bereits verschiedene Services auf die Beine gestellt. Auch bei anderen Skriptsprachen dieser Welt kann ich auf eine fundierte Wissens- und Erfahrungsbasis zurückgreifen, die ich gern weitergebe. Mein „Tester-Auge“ ist dabei stets präsent und wacht über das Geschehen.
+* __Entwicklung und Design von Continuous Integration, Delivery und Deployment Pipelines__: Nichts ist schlimmer als Ewigkeiten an etwas zu entwickeln, ohne echtes Feedback von Kunden zu erhalten. Pipelines helfen, Services automatisiert und in optimaler, gleichbleibender Qualität zur Verfügung zu stellen. Sie geben schnelle Rückmeldung und sind essentiell um zu erfahren, ob die eingeschlagene Richtung stimmt oder nicht.
 
-Agile Ninja: Ich bin Certified Scrum Master der Scrum Alliance. Von Zeit zu Zeit und gerade bei kleinen und jungen Teams kann ich die Rolle des Scrum Masters übernehmen. Die Entwicklung von gemeinsamen Arbeitsweisen und das Organisieren sowie Moderieren von Workshops, Reviews oder Meetings trägt zum Teamerfolg bei. Ganz wichtig ist mir, dass ich nah am Team bin und selbst aktiv am Produkt beteiligt bleibe.
+* __Erfahrener Test-Experte__: Ich möchte bei meinen eigenen Tätigkeiten mit gutem Beispiel vorangehen und selbst sauberen, lesbaren und einfachen Quellcode schreiben, der so am Ende gut wartbar ist. Die richtigen Tests zur richtigen Zeit helfen mir und unserem Team, anstatt das sie uns ausbremsen oder behindern. Im Pair und im allgemeinen Austausch versuche ich mein „Tester-Auge“ und das notwendige, hinterfragende Denken eines Testers zu verbreiten. Darüber hinaus sind schnelle und ständig laufende Tests in unseren Continuous Delivery Pipelines unabdingbar, um die Qualität zu erhöhen und das Risiko zu minimieren.
+
+* __Entwickler mit Fokus auf Qualität__: Ich würde mich zwar niemals als Vollblutentwickler bezeichnen, trotzdem wechsle ich gern mal in die Perspektive eines Entwicklers. Mit Ruby oder JavaScript habe ich dabei bereits verschiedene Services auf die Beine gestellt. Auch bei anderen Skriptsprachen dieser Welt kann ich auf eine fundierte Wissens- und Erfahrungsbasis zurückgreifen, die ich gern weitergebe. Mein „Tester-Auge“ ist dabei stets präsent und wacht über das Geschehen.
+
+* __Agile Ninja__: Ich bin Certified Scrum Master der Scrum Alliance. Von Zeit zu Zeit und gerade bei kleinen und jungen Teams kann ich die Rolle des Scrum Masters übernehmen. Die Entwicklung von gemeinsamen Arbeitsweisen und das Organisieren sowie Moderieren von Workshops, Reviews oder Meetings trägt zum Teamerfolg bei. Ganz wichtig ist mir, dass ich nah am Team bin und selbst aktiv am Produkt beteiligt bleibe.
+  
+foo.
+  </div>
+</section>
+
+<section class="diagonals">
+  <div class="content" markdown="1">
+
+#### Was ist mir wichtig?
+
+Meine gesamte Arbeit richtet sich nach den folgenden Grundsätzen:
+
+* __Menschen__: Alles steht und fällt mit uns selbst. Mit Menschlichkeit, Würde, Respekt, Empathie sowie Offenheit schaffe ich Vertrauen und lege den Grundstein für klare Kommunikation auf Augenhöhe. Das schafft eine starke Bindung innerhalb unseres Teams, ermöglicht Höchstleistungen und führt letztendlich zu einem qualitativ besseren Produkt.
+
+* __Being open minded__: Kein Projekt ist wie ein anderes und deshalb kann es keine Universallösungen geben. Jedes Teammitglied ist wertvoll und trägt seinen Teil bei. Ich freue mich immer wieder aufs Neue, mit klugen und fähigen Menschen zusammenzuarbeiten, von denen ich selbst etwas lernen kann. Genauso gern besuche ich regelmäßig Konferenzen und Meetups oder organisiere Dojo’s bzw. mini Workshops innerhalb unseres Teams.
+
+* __Everything is Code__: Die Zeiten, in denen Dinge einfach mal schnell zusammengeklickt wurden, sind zum Glück vorbei. Ich lebe das Prinzip „Alles ist Code“. Quellcode ist transparent, versioniert, testbar und reproduzierbar. Somit kann jeder Bereich der Softwareentwicklung (inklusive der Infrastruktur) davon profitieren.
+
+* __Fehler machen ist erlaubt (und erwünscht)__: Einer der wichtigsten Punkte ist der Aspekt, Fehler machen zu dürfen. Sie sind essentiell, um zu lernen und voranzukommen. Also bitte bitte: Lasst uns Fehler machen! Das Entscheidende daran ist, daraus zu lernen – und das möglichst frühzeitig und schnell. So werden wir zu Experten auf unserem Gebiet.
+ 
+* __Spaß haben__: Spaß und Zusammenhalt in einem Team sind unendlich wichtig. Dazu trägt eine entspannte 
+  Arbeitsumgebung und -weise genauso wie das Feierabend-Getränk bei. All das motiviert mich und unser Team zu Höchstleistungen und führt wiederum zu einem besseren Produkt.
 
   </div>
 </section>
 
-Was ist mir wichtig?
-
-Meine gesamte Arbeit richtet sich nach den folgenden Grundsätzen:
-
-    Menschen: Alles steht und fällt mit uns selbst. Mit Menschlichkeit, Würde, Respekt, Empathie sowie Offenheit schaffe ich Vertrauen und lege den Grundstein für klare Kommunikation auf Augenhöhe. Das schafft eine starke Bindung innerhalb unseres Teams, ermöglicht Höchstleistungen und führt letztendlich zu einem qualitativ besseren Produkt.
-    Being open minded: Kein Projekt ist wie ein anderes und deshalb kann es keine Universallösungen geben. Jedes Teammitglied ist wertvoll und trägt seinen Teil bei. Ich freue mich immer wieder aufs Neue, mit klugen und fähigen Menschen zusammenzuarbeiten, von denen ich selbst etwas lernen kann. Genauso gern besuche ich regelmäßig Konferenzen und Meetups oder organisiere Dojo’s bzw. mini Workshops innerhalb unseres Teams.
-    Everything is Code: Die Zeiten, in denen Dinge einfach mal schnell zusammengeklickt wurden, sind zum Glück vorbei. Ich lebe das Prinzip „Alles ist Code“. Quellcode ist transparent, versioniert, testbar und reproduzierbar. Somit kann jeder Bereich der Softwareentwicklung (inklusive der Infrastruktur) davon profitieren.
-    Fehler machen ist erlaubt (und erwünscht): Einer der wichtigsten Punkte ist der Aspekt, Fehler machen zu dürfen. Sie sind essentiell, um zu lernen und voranzukommen. Also bitte bitte: Lasst uns Fehler machen! Das Entscheidende daran ist, daraus zu lernen – und das möglichst frühzeitig und schnell. So werden wir zu Experten auf unserem Gebiet.
-    Trinkt Bier: Auch wenn ich selbst seit geraumer Zeit keinen Alkohol mehr trinke, ist der Spaß und Zusammenhalt in einem Team unendlich wichtig. Dazu trägt eine entspannte Arbeitsumgebung und -weise genauso wie das Feierabend-Getränk bei. All das motiviert mich und unser Team zu Höchstleistungen und führt wiederum zu einem besseren Produkt.
-
-Curriculum Vitae
+#### Curriculum Vitae
 
 Meinen aktuellen CV mit allen Feinheiten in übersichtlicher Form gibt es hier als Download.
-Let’s talk!
+
+#### Let’s talk!
 
 Ja? Nein? Jein? Egal um was es geht, ich freue mich auf den Austausch mit Ihnen. Lassen sie mir einfach ein paar Zeilen da und ich antworte gern.
 Meine bisherigen Projekte
