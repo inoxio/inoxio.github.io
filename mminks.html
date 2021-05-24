@@ -1,0 +1,34 @@
+---
+layout: default
+ref: mminks
+lang: de
+---
+
+<section class="diagonals" id="mminks-hello">
+  <div class="content">
+    <img class="avatar" src="{{ "assets/img/tmangner.png" | relative_url }}" />
+    {% capture my_include %}{% include sections/mminks/hello.md %}{% endcapture
+    %} {{ my_include | markdownify }}
+  </div>
+</section>
+
+<section class="diagonals" id="mminks-profile">
+  <div class="content">
+    {% capture my_include %}{% include sections/mminks/profile.md %}{%
+    endcapture %} {{ my_include | markdownify }}
+  </div>
+</section>
+
+<section class="diagonals">
+  <div class="content">
+    {% capture my_include %}{% include sections/mminks/beliefs.md %}{%
+    endcapture %} {{ my_include | markdownify }}
+  </div>
+</section>
+
+<section class="diagonals">
+  <div class="content">
+    {% capture my_include %}{% include sections/mminks/cv.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>

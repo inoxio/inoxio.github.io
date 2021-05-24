@@ -1,0 +1,13 @@
+##### Mein Profil:
+
+- **Entwicklung und Migration von (Microservice-)Plattformen**: Egal ob on-premises oder Cloud-basiert; klassisch oder in Amazon Web Services (AWS), Microsoft Azure oder Google Cloud Platform. Manuell war gestern! _Infrastruktur ist nichts anderes als Code_ und genau so soll sie auch behandelt werden. Es bereitet mir Spaß, Dinge wachsen und sich verbessern zu sehen. Terraform und CloudFormation sind hierbei die Tools meiner Wahl.
+
+- **Entwicklung und Design von Continuous Integration, Delivery und Deployment Pipelines**: Nichts ist schlimmer als Ewigkeiten an etwas zu entwickeln, ohne echtes Feedback von Kunden zu erhalten. Pipelines helfen, Services automatisiert und in optimaler, gleichbleibender Qualität zur Verfügung zu stellen. Sie geben schnelle Rückmeldung und sind essentiell um zu erfahren, ob die eingeschlagene Richtung stimmt oder nicht.
+
+- **Erfahrener Test-Experte**: Ich möchte bei meinen eigenen Tätigkeiten mit gutem Beispiel vorangehen und selbst sauberen, lesbaren und einfachen Quellcode schreiben, der so am Ende gut wartbar ist. Die richtigen Tests zur richtigen Zeit helfen mir und unserem Team, anstatt das sie uns ausbremsen oder behindern. Im Pair und im allgemeinen Austausch versuche ich mein „Tester-Auge“ und das notwendige, hinterfragende Denken eines Testers zu verbreiten. Darüber hinaus sind schnelle und ständig laufende Tests in unseren Continuous Delivery Pipelines unabdingbar, um die Qualität zu erhöhen und das Risiko zu minimieren.
+
+- **Entwickler mit Fokus auf Qualität**: Ich würde mich zwar niemals als Vollblutentwickler bezeichnen, trotzdem wechsle ich gern mal in die Perspektive eines Entwicklers. Mit Ruby oder JavaScript habe ich dabei bereits verschiedene Services auf die Beine gestellt. Auch bei anderen Skriptsprachen dieser Welt kann ich auf eine fundierte Wissens- und Erfahrungsbasis zurückgreifen, die ich gern weitergebe. Mein „Tester-Auge“ ist dabei stets präsent und wacht über das Geschehen.
+
+- **Agile Ninja**: Ich bin Certified Scrum Master der Scrum Alliance. Von Zeit zu Zeit und gerade bei kleinen und jungen Teams kann ich die Rolle des Scrum Masters übernehmen. Die Entwicklung von gemeinsamen Arbeitsweisen und das Organisieren sowie Moderieren von Workshops, Reviews oder Meetings trägt zum Teamerfolg bei. Ganz wichtig ist mir, dass ich nah am Team bin und selbst aktiv am Produkt beteiligt bleibe.
+
+foo.
