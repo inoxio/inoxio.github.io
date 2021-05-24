@@ -9,7 +9,7 @@ unterschiedlichen Spezialisierungen in unserem Team.
 {% for colleague in colleagues %}
 
   <div class="colleague">
-    <h3 class="name">{{ colleague.name }} *</h3> 
+    <h2 class="name">{{ colleague.name }} *</h2> 
     <div class="content">
       <img src="{{ colleague.avatar | relative_url }}" />
       <div class="text">
