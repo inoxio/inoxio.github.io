@@ -3,10 +3,11 @@
 @import "breakpoints";
 
 :root {
-  --primary-color: #d6205a;
-  --secondary-color: #aecf1c;
-  --primary-bg-color: white;
-  --secondary-bg-color: #eee;
+  --primary-color: #3d315b;
+  --secondary-color: #c70a52;
+  --accent-color: #5e503f;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #ebebeb;
 }
 
 body {
@@ -21,7 +22,7 @@ h2,
 h3 {
   font-family: "Lobster", cursive;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .diagonals {
