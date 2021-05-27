@@ -3,9 +3,28 @@ layout: default
 ref: team
 lang: de
 ---
+
 <section class="diagonals" id="team">
-    <div class="content">
-        {% capture my_include %}{% include sections/team.md %}{% endcapture %}
-        {{ my_include | markdownify }}
+  <div class="content">
+    {% capture my_include %}{% include sections/team.md %}{% endcapture %} {{
+    my_include | markdownify }}
+  </div>
+</section>
+
+<section class="diagonals" id="team-members">
+  <div class="content">
+    {% assign colleagues = site.colleagues | sort: 'name' %} {% for colleague in
+    colleagues %}
+    <div class="colleague">
+      <h2 class="name">{{ colleague.name }}</h2>
+      <div class="content">
+        <img class="avatar" src="{{ colleague.avatar | relative_url }}" />
+        <div class="text">{{ colleague.content | markdownify }}</div>
+      </div>
     </div>
+    {% endfor %}
+
+    <!-- {% capture my_include %}{% include sections/team.md %}{% endcapture %} {{
+    my_include | markdownify }} -->
+  </div>
 </section>

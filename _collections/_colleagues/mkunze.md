@@ -7,5 +7,5 @@ avatar: assets/img/tmangner.png
 Experte für Last-, Stress- und Performancetests. Automatisierer mit Leib und
 Seele. Spricht fließend SAP eCATT und lässt kein Problem ungelöst.
 
-Kann mit verbundenen Augen und einer Stoppuhr: die Perfomance eines komplexen
-Systems messen.
+_Kann mit verbundenen Augen und einer Stoppuhr: die Perfomance eines komplexen
+Systems messen._

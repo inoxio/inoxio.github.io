@@ -1,4 +1,19 @@
 section#team {
+  background: var(--primary-color)
+    linear-gradient(
+      30deg,
+      var(--primary-color) 50%,
+      var(--secondary-color) 100%
+    );
+
+  color: white;
+  h2 {
+    color: white;
+  }
+}
+
+section#team-members {
+  background-color: var(--primary-bg-color);
   .colleague {
     .content {
       @include md {
@@ -8,6 +23,10 @@ section#team {
         flex: 1 1 auto;
       }
     }
+  }
+
+  em {
+    color: var(--accent-color);
   }
 }
 

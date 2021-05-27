@@ -1,6 +1,10 @@
 section#about {
-  // background: var(--primary-color) linear-gradient(45deg, var(--secondary-color) 0%, var(--primary-color) 75%);
-  background: var(--primary-color);
+  background: var(--primary-color)
+    linear-gradient(
+      30deg,
+      var(--primary-color) 50%,
+      var(--secondary-color) 100%
+    );
   color: white;
 
   h1,

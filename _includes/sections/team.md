@@ -1,20 +1,8 @@
 ## Team
 
-Wir sind Test-Profis aus Leidenschaft mit einer weit über 10-jährigen Berufserfahrung.
+Seit der Firmengründung vor 15 Jahren, sind wir in Projekten in ganz Deutschland
+und Europa unterwegs und unterstützen mit unserer Expertise Teams vor Ort (oder
+auch remote).
 
-Unsere Kunden profitieren von einer breiten Wissenbasis und
+Unsere Kunden profitieren von einer breiten Wissenbasis und vielen
 unterschiedlichen Spezialisierungen in unserem Team.
-
-{% assign colleagues = site.colleagues | sort: 'name' %}
-{% for colleague in colleagues %}
-
-  <div class="colleague">
-    <h2 class="name">{{ colleague.name }}</h2> 
-    <div class="content">
-      <img class="avatar" src="{{ colleague.avatar | relative_url }}" />
-      <div class="text">
-        {{ colleague.content | markdownify }}
-      </div>
-    </div>
-  </div>
-{% endfor %}
