@@ -1,3 +1,11 @@
+<center>
+    <a href="mailto:mminks@inoxio.de"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    <a href="https://github.com/mminks"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.xing.com/profile/Meik_Minks/cv"><i class="fa fa-xing" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/meikminks"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/meik_m_punkt/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</center>
+
 #### Hi 👋,
 
 mein Name ist Meik Minks. Ich arbeite seit 10 Jahren als Delivery Engineer, Agile Tester,
