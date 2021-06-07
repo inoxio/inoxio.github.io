@@ -32,3 +32,10 @@ lang: de
     {{ my_include | markdownify }}
   </div>
 </section>
+
+<section class="diagonals">
+  <div class="content">
+    {% capture my_include %}{% include sections/mminks/projects.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>

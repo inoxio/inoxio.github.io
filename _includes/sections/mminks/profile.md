@@ -1,4 +1,4 @@
-##### Mein Profil:
+#### Mein Profil:
 
 - **Entwicklung und Migration von (Microservice-)Plattformen**: Egal ob on-premises oder Cloud-basiert; klassisch oder in Amazon Web Services (AWS), Microsoft Azure oder Google Cloud Platform. Manuell war gestern! _Infrastruktur ist nichts anderes als Code_ und genau so soll sie auch behandelt werden. Es bereitet mir Spaß, Dinge wachsen und sich verbessern zu sehen. Terraform und CloudFormation sind hierbei die Tools meiner Wahl.
 
@@ -9,5 +9,3 @@
 - **Entwickler mit Fokus auf Qualität**: Ich würde mich zwar niemals als Vollblutentwickler bezeichnen, trotzdem wechsle ich gern mal in die Perspektive eines Entwicklers. Mit Ruby oder JavaScript habe ich dabei bereits verschiedene Services auf die Beine gestellt. Auch bei anderen Skriptsprachen dieser Welt kann ich auf eine fundierte Wissens- und Erfahrungsbasis zurückgreifen, die ich gern weitergebe. Mein „Tester-Auge“ ist dabei stets präsent und wacht über das Geschehen.
 
 - **Agile Ninja**: Ich bin Certified Scrum Master der Scrum Alliance. Von Zeit zu Zeit und gerade bei kleinen und jungen Teams kann ich die Rolle des Scrum Masters übernehmen. Die Entwicklung von gemeinsamen Arbeitsweisen und das Organisieren sowie Moderieren von Workshops, Reviews oder Meetings trägt zum Teamerfolg bei. Ganz wichtig ist mir, dass ich nah am Team bin und selbst aktiv am Produkt beteiligt bleibe.
-
-foo.
