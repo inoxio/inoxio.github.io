@@ -11,7 +11,7 @@ const claims = [
   {
     heading:
       "... wenn man für alles immer nur einen Hammer benutzt, obwohl die Werkzeugkiste prall gefüllt ist",
-    image: "img/toolbox.png",
+    image: "img/hammer.png",
   },
   // {
   //     heading: '... wenn der Mechaniker in der Werkstatt bei einem Motorschaden das Auto nur von außen begutachtet.',
