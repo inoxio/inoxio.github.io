@@ -1,7 +1,7 @@
 ---
 name: Michael Kunze
 title: Jedi Grand Master for the old languages, SAP Sensei, Knowledge Champion.
-avatar: assets/img/tmangner.png
+avatar: assets/img/mkunze.png
 ---
 
 Experte für Last-, Stress- und Performancetests. Automatisierer mit Leib und
