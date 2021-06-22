@@ -3,11 +3,11 @@ Array.prototype.random = function () {
 };
 
 const claims = [
-  // {
-  //   heading:
-  //     "... wenn man zum Tiefseetauchen lediglich einen Schnorchel bringt.",
-  //   image: "img/example4.png",
-  // },
+  {
+    heading:
+      "... wenn man zum Tiefseetauchen lediglich einen Schnorchel bringt.",
+    image: "img/snorkel.png",
+  },
   {
     heading:
       "... wenn man für alles immer nur einen Hammer benutzt, obwohl die Werkzeugkiste prall gefüllt ist",
@@ -26,11 +26,11 @@ const claims = [
       "... wenn man für einen 100m Sprint die Laufschuhe erst nach 90m anzieht.",
     image: "img/runner.png",
   },
-  {
-    heading:
-      "... wenn man für Double Chocolate Cookies, ausschließlich im Nachhinein Schokostreusel auf die Kekse streut.",
-    image: "img/chocolate-cookie.png",
-  },
+  // {
+  //   heading:
+  //     "... wenn man für Double Chocolate Cookies, ausschließlich im Nachhinein Schokostreusel auf die Kekse streut.",
+  //   image: "img/chocolate-cookie.png",
+  // },
 ];
 
 showClaims();
