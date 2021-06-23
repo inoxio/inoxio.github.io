@@ -1,7 +1,7 @@
 ## Beratung mit Qualität
 
-Willkommen bei der _inoxio Quality Services GmbH_. Wir helfen Software&shy;
-entwicklungs-Teams ein qualitativ besseres Produkt zu erschaffen.
+Willkommen bei der _inoxio Quality Services GmbH_. Wir helfen 
+Software&shy;entwicklungs-Teams ein qualitativ besseres Produkt zu erschaffen.
 
 Ganzheitliche Beratung von der Designphase, über die Entwicklung und
 Qualitäts&shy;sicherung bis hin zum Betrieb der fertigen Software&shy;lösung.

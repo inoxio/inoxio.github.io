@@ -4,8 +4,7 @@ title: Chief Assistant to General Management.
 avatar: assets/img/kmangner.png
 ---
 
-Die gute Fee der Firma. Unser Mädchen für Alles. Ohne Sie könnten die anderen
-einpacken.
+Katrin koordiniert den administrativen Bereich und ist erste Ansprechpartnerin
+bei Kundenanfragen.
 
-_Kann mit verbundenen Augen und einem Kleinkind auf dem Arm: Eine ganze Firma am
-Laufen halten._
+_Kann mit verbundenen Augen: Eine ganze Firma am Laufen halten._

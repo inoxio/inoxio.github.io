@@ -2,7 +2,7 @@
 
 Wir glauben fest daran, dass sich Qualität nicht nachträglich auf ein fertig
 entwickeltes Produkt "anwenden" lässt. Software&shy;qualität lässt sich nur
-sicher&shy;stellen, wenn man ihr in jedem Schritt des gesamten
+sicher&shy;stellen, wenn man ihr in jedem Abschnitt des gesamten
 Entwicklungs&shy;prozesses genügend Aufmerksamkeit schenkt.
 
 Bei uns finden Sie deshalb Unterstützung in nahezu allen Bereichen der
@@ -40,7 +40,7 @@ Aspekte am effizientesten getestet werden können.
 
 ### DevOps
 
-Neben unseren Entwickler&shy;tätigkeit nutzen wir ganz selbst&shy;verständlich unser
+Neben unserer Entwickler&shy;tätigkeit nutzen wir ganz selbst&shy;verständlich unser
 DevOps Know-how um CI/CD-Pipelines zu bauen, Infra&shy;structure-As-Code zu
 etablieren und den Betrieb der entwickelten Software sicherzustellen.
 

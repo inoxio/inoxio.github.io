@@ -8,7 +8,7 @@ planungs&shy;sicherer, kosten&shy;günstiger und in höherer Qualität liefern z
 Agilität ist für uns nicht gleich&shy;bedeutend mit _Scrum by the book_. Wir
 verstehen Agilität als eine Sammlung von Praktiken und Methoden, die auf ein
 Team und dessen Bedürfnisse zugeschnitten sind und die sich mit diesem Team über
-die Zeit weiter&shy;entwicklen.
+die Zeit weiter&shy;entwickeln.
 
 ### Cross-functional
 
@@ -23,13 +23,13 @@ Folge, dass die Teams klein, schnell, agil und schlag&shy;kräftig bleiben.
 
 ### You build it, you run it
 
-Wir begleiten die Entwicklung vom Design bis zum Betrieb, da wir nur so die
-Erbringen des Mehrwert für den Kunden in hoher Qualität gewährleisten können.
+Wir begleiten die Entwicklung vom Design bis zum Betrieb, da wir nur so das
+Erbringen des Mehrwertes für den Kunden in hoher Qualität gewährleisten können.
 
 Zusammen mit dem Team übernehmen wir die kollektive Ver&shy;antwortung für unsere
 entwickelten Funktionen, insbesondere während des Betriebs. Das Schaffen von
 Transparenz durch geeignete Lösungen wie Monitoring und Alarming helfen uns
-dabei diese Aufgabe zu erfüllen.
+dabei, diese Aufgabe zu erfüllen.
 
 ### Continuous Improvement
 

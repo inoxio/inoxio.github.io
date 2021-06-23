@@ -3,7 +3,7 @@ name: Torsten Mangner
 avatar: assets/img/tmangner.png
 ---
 
-Experte für agile Software&shy;entwicklung und Software&shy;qualität.
+Torsten ist Experte für agile Software&shy;entwicklung und Software&shy;qualität.
 Entwickelt vom Frontend für Buchhaltungs&shy;systeme über Recommendation-Engines
 für e-Commerce-Plattformen bishin zum Backend für Mobile Games fast alles.
 Ist in nahezu allen Programmier&shy;sprachen dieser Welt zu Hause.
