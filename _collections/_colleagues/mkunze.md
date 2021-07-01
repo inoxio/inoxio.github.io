@@ -1,11 +1,12 @@
 ---
 name: Michael Kunze
-title: Jedi Grand Master for the old languages, SAP Sensei, Knowledge Champion.
+title: Jedi Grand Master for the old languages, Scrum Sensei, Knowledge Champion.
 avatar: assets/img/mkunze.png
 ---
 
-Michael ist Experte für Last-, Stress- und Performancetests. Automatisierer mit
-Leib und Seele. Spricht fließend SAP eCATT und lässt kein Problem ungelöst.
+Michael ist Experte für nachhaltige Software, vorwiegend in Java. Automatisierer
+mit Leib und Seele. Spricht fließend mehrere Skriptsprachen und lässt kein Problem
+ungelöst.
 
-_Kann mit verbundenen Augen und einer Stoppuhr: die Perfomance eines komplexen
-Systems messen._
+_Kann mit verbundenen Augen, einem Streichholz und einer Büroklammer eine
+Retrospektive leiten._
