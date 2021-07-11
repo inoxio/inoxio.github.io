@@ -6,9 +6,9 @@ lang: de
 
 <section class="diagonals" id="mminks-hello">
   <div class="content">
-    <img class="avatar" src="{{ "assets/img/tmangner.png" | relative_url }}" />
-    {% capture my_include %}{% include sections/mminks/hello.md %}{% endcapture
-    %} {{ my_include | markdownify }}
+    <img class="avatar" src="{{ "assets/img/mminks.png" | relative_url }}" /> {%
+    capture my_include %}{% include sections/mminks/hello.md %}{% endcapture %}
+    {{ my_include | markdownify }}
   </div>
 </section>
 
@@ -35,7 +35,7 @@ lang: de
 
 <section class="diagonals">
   <div class="content">
-    {% capture my_include %}{% include sections/mminks/projects.md %}{% endcapture %}
-    {{ my_include | markdownify }}
+    {% capture my_include %}{% include sections/mminks/projects.md %}{%
+    endcapture %} {{ my_include | markdownify }}
   </div>
 </section>

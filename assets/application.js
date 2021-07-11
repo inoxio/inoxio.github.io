@@ -5,7 +5,7 @@ Array.prototype.random = function () {
 const claims = [
   {
     heading:
-      "... wenn man zum Tiefseetauchen lediglich einen Schnorchel bringt.",
+      "... wenn man zum Tiefseetauchen lediglich einen Schnorchel mitbringt.",
     image: "img/snorkel.png",
   },
   {
