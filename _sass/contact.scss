@@ -17,14 +17,4 @@ section#contact {
       margin: 0 1em 0.25em;
     }
   }
-
-  #address {
-    padding-left: 30px;
-
-    &::before {
-      font-family: "FontAwesome";
-      content: "\f015";
-      margin-left: -30px;
-    }
-  }
 }
