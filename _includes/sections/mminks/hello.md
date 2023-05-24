@@ -8,7 +8,7 @@
 
 #### Hi 👋,
 
-mein Name ist Meik Minks. Ich arbeite seit 10 Jahren als Delivery Engineer, Agile Tester,
+mein Name ist Meik Minks. Ich arbeite seit 12 Jahren als Delivery Engineer, Agile Tester,
 Continuous \* (_everything_) Experte und Scrum Master bei diversen Projekten in ganz Deutschland.
 Die agile Arbeitsweise bzw. die agile Entwicklung von Software in einem Team habe ich glücklicherweise schon
 frühzeitig kennen und schätzen gelernt. Ich bin überzeugt, dass sie das Beste aus einem cross-funktionalen,
