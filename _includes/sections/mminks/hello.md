@@ -2,7 +2,7 @@
     <a href="mailto:mminks@inoxio.de"><i class="fa fa-envelope" aria-hidden="true"></i></a>
     <a href="https://github.com/mminks"><i class="fa fa-github" aria-hidden="true"></i></a>
     <a href="https://www.xing.com/profile/Meik_Minks/cv"><i class="fa fa-xing" aria-hidden="true"></i></a>
-    <a href="https://twitter.com/meikminks"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://x.com/meikminks"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a href="https://www.instagram.com/meik_m_punkt/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 </center>
 
@@ -25,5 +25,5 @@ Ich bin immer offen für spannende Teams und Aufgaben, bei denen am Ende ein coo
 dazu aktiv bei und verhelfe mit der Weitergabe meines Wissens zu einem besseren Ergebnis für die Stakeholder.
 
 [Kontaktieren](mailto:mminks@inoxio.de) Sie mich gern oder folgen Sie mir auf [Github](https://github.com/mminks),
-[XING](https://www.xing.com/profile/Meik_Minks/cv), [Twitter](https://twitter.com/meikminks) oder
+[XING](https://www.xing.com/profile/Meik_Minks/cv), [X (Twitter)](https://x.com/meikminks) oder
 [Instagram](https://www.instagram.com/meik_m_punkt/).

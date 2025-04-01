@@ -16,7 +16,7 @@
 </div>
 
 <div>
-  <a href="https://twitter.com/inoxio">
-    Twitter
+  <a href="https://x.com/inoxio">
+    X (Twitter)
   </a>
 </div>
