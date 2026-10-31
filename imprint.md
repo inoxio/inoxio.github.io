@@ -2,9 +2,9 @@
 layout: legal
 ref: imprint
 lang: de
+title: Impressum
 ---
 
-# Impressum
 
 | Anschrift | inoxio Quality Services GmbH|
 ||Anger 13|
