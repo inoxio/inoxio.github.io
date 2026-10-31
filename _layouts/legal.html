@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+{%- assign t = site.data.i18n[page.lang] -%}
+<header class="page-header">
+    <div class="content">
+        <p class="eyebrow">{{ t.legal }}</p>
+        <h1>{{ page.title }}</h1>
+    </div>
+</header>
 <article class="legal">
     {{ content }}
 </article>

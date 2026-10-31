@@ -1,12 +1,18 @@
+{%- assign t = site.data.i18n[page.lang] -%}
 <div class="heading">
-  <h1>Softwarequalität von Anfang bis Ende</h1>
+  <p class="eyebrow">{{ t.hero.eyebrow }}</p>
+  <h1>{{ t.hero.pre }} <span class="hl">{{ t.hero.hl }}</span></h1>
 
-  Hohe Softwarequalität nur durch Tests sicherstellen zu wollen, ist wie ...
+  <p class="lead">{{ t.hero.lead }}</p>
 
-  <div id="claimtext">
-    ... wenn man für alles immer nur einen Hammer benutzt, obwohl die Werkzeugkiste
-    prall gefüllt ist
+  <div id="claimtext">{{ t.hero.claim }}</div>
+
+  <div class="actions">
+    <a class="btn primary" href="{{ t.prefix }}/#contact">{{ t.hero.cta }}</a>
+    <a class="btn ghost" href="{{ t.prefix }}/#services">{{ t.hero.services }}</a>
   </div>
 </div>
 
-<img id="claimimage" src="{{ '/assets/img/placeholder.png' | relative_url }}" alt="hero" />
+<div class="claim-visual">
+  <img id="claimimage" src="{{ '/assets/img/placeholder.png' | relative_url }}" alt="{{ t.hero.alt }}" />
+</div>

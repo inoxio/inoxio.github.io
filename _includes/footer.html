@@ -1,9 +1,35 @@
-<footer class="diagonals" >
+{%- assign t = site.data.i18n[page.lang] -%}
+<footer>
     <div class="content">
-        <div>Made with ♥ and jekyll by <a href="https://inoxio.de">inoxio Quality Services GmbH</a></div>
-        <ul>
-            <li><a href="/imprint">Impressum</a></li>
-            <li><a href="/privacy">Datenschutz</a></li>
-        </ul>
+        <div class="footer-grid">
+            <div class="brand">
+                <a href="{{ t.prefix }}/#"><img src="{{ '/assets/img/logo.png' | relative_url }}" alt="inoxio"></a>
+                <p>{{ t.footer.tagline }}</p>
+            </div>
+            <div>
+                <h4>{{ t.footer.nav }}</h4>
+                <ul>
+                    <li><a href="{{ t.prefix }}/#about">{{ t.nav.about }}</a></li>
+                    <li><a href="{{ t.prefix }}/#services">{{ t.nav.services }}</a></li>
+                    <li><a href="{{ t.prefix }}/team">{{ t.nav.team }}</a></li>
+                    <li><a href="{{ t.prefix }}/#contact">{{ t.nav.contact }}</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>{{ t.footer.contact }}</h4>
+                <ul>
+                    <li><a href="mailto:info@inoxio.de">info@inoxio.de</a></li>
+                    <li><a href="tel:+49-361-4306456">0361 / 430 64 56</a></li>
+                    <li>Erfurt, Germany</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; {{ 'now' | date: '%Y' }} <a href="https://inoxio.de">inoxio Quality Services GmbH</a> &middot; Made with ♥ and Jekyll</div>
+            <ul>
+                <li><a href="{{ t.prefix }}/imprint">{{ t.footer.imprint }}</a></li>
+                <li><a href="{{ t.prefix }}/privacy">{{ t.footer.privacy }}</a></li>
+            </ul>
+        </div>
     </div>
 </footer>

@@ -1,14 +1,18 @@
-<nav class="diagonals" id="menu">
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign alt = site.pages | where: "ref", page.ref | where_exp: "p", "p.lang != page.lang" | first -%}
+<nav id="menu">
     <div class="content">
-        <a href="/#"><img src="{{ '/assets/img/logo.png' | relative_url }}" alt="logo"></a>
+        <a class="logo" href="{{ t.prefix }}/#"><img src="{{ '/assets/img/logo.png' | relative_url }}" alt="{{ t.logo_alt }}"></a>
         <ul>
-            <li><a href="/#">Home</a></li>
-            <li><a href="/#about">Über uns</a></li>
-<!--            <li><a href="/#beliefs">Überzeugungen</a></li>-->
-            <li><a href="/#services">Services</a></li>
-            <li><a href="/team">Team</a></li>
-<!--            <li><a href="/jobs">Jobs</a></li>-->
-            <li><a href="/#contact">Kontakt</a></li>
+            <li><a href="{{ t.prefix }}/#about">{{ t.nav.about }}</a></li>
+            <li><a href="{{ t.prefix }}/#services">{{ t.nav.services }}</a></li>
+            <li><a href="{{ t.prefix }}/team">{{ t.nav.team }}</a></li>
+            <li><a class="cta" href="{{ t.prefix }}/#contact">{{ t.nav.contact }}</a></li>
+            {%- if alt %}
+            <li class="lang">
+                <a href="{{ alt.url }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}" title="{% if alt.lang == 'en' %}English{% else %}Deutsch{% endif %}">{{ alt.lang | upcase }}</a>
+            </li>
+            {%- endif %}
         </ul>
     </div>
 </nav>

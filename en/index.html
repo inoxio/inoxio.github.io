@@ -1,0 +1,45 @@
+---
+layout: default
+ref: index
+lang: en
+permalink: /en/
+---
+<section id="hero">
+    <div class="content">
+        {% include sections/hero.html %}
+    </div>
+</section>
+
+<section id="facts">
+    <div class="content">
+        {% for f in site.data.i18n[page.lang].facts %}<div><strong>{{ f.v }}</strong><span>{{ f.l }}</span></div>{% endfor %}
+    </div>
+</section>
+
+<section id="about">
+    <div class="content">
+        {% capture my_include %}{% include sections/en/about.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section id="beliefs">
+    <div class="content">
+        {% capture my_include %}{% include sections/en/beliefs.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section id="services">
+    <div class="content">
+        {% capture my_include %}{% include sections/en/services.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>
+
+<section id="contact">
+    <div class="content">
+        {% capture my_include %}{% include sections/en/contact.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+    </div>
+</section>

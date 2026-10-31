@@ -1,0 +1,68 @@
+de:
+  prefix: ""
+  nav: { about: "Über uns", services: "Services", team: "Team", contact: "Kontakt" }
+  hero:
+    eyebrow: "Software Quality Consulting"
+    pre: "Softwarequalität von"
+    hl: "Anfang bis Ende"
+    lead: "Hohe Softwarequalität nur durch Tests sicherstellen zu wollen, ist wie ..."
+    claim: "... wenn man für alles immer nur einen Hammer benutzt, obwohl die Werkzeugkiste prall gefüllt ist"
+    cta: "Kontakt aufnehmen"
+    services: "Unsere Services"
+    alt: "Illustration zum Claim"
+  facts:
+    - { v: "~20 Jahre", l: "Berufserfahrung" }
+    - { v: "Design → Betrieb", l: "ganzheitliche Beratung" }
+    - { v: "DE & Europa", l: "vor Ort oder remote" }
+  footer:
+    tagline: "Softwarequalität von Anfang bis Ende – Beratung für Teams, die besser liefern wollen."
+    nav: "Navigation"
+    contact: "Kontakt"
+    imprint: "Impressum"
+    privacy: "Datenschutz"
+  legal: "Rechtliches"
+  logo_alt: "inoxio Quality Services"
+  team_alt: "Teammitglied"
+  mminks:
+    eyebrow: "Delivery Engineer · Agile Tester · Scrum Master"
+    lead: "Qualität, Automatisierung und starke Teams – von der ersten Idee bis in den Betrieb."
+    contact: "Kontaktieren"
+    cv: "CV herunterladen"
+    expertise: "Expertise"
+    values: "Werte"
+    refs: "Referenzen"
+    description: "Meik Minks - Delivery Engineer, Agile Tester und Scrum Master bei der inoxio Quality Services GmbH."
+en:
+  prefix: "/en"
+  nav: { about: "About", services: "Services", team: "Team", contact: "Contact" }
+  hero:
+    eyebrow: "Software Quality Consulting"
+    pre: "Software quality from"
+    hl: "start to finish"
+    lead: "Trying to ensure high software quality through testing alone is like ..."
+    claim: "... using a hammer for everything even though the toolbox is full"
+    cta: "Get in touch"
+    services: "Our services"
+    alt: "Illustration for the claim"
+  facts:
+    - { v: "~20 years", l: "of professional experience" }
+    - { v: "Design → Operations", l: "end-to-end consulting" }
+    - { v: "DE & Europe", l: "on site or remote" }
+  footer:
+    tagline: "Software quality from start to finish – consulting for teams that want to deliver better."
+    nav: "Navigation"
+    contact: "Contact"
+    imprint: "Legal notice"
+    privacy: "Privacy"
+  legal: "Legal"
+  logo_alt: "inoxio Quality Services"
+  team_alt: "Team member"
+  mminks:
+    eyebrow: "Delivery Engineer · Agile Tester · Scrum Master"
+    lead: "Quality, automation and strong teams – from the first idea to operations."
+    contact: "Get in touch"
+    cv: "Download CV"
+    expertise: "Expertise"
+    values: "Values"
+    refs: "References"
+    description: "Meik Minks - Delivery Engineer, Agile Tester and Scrum Master at inoxio Quality Services GmbH."
