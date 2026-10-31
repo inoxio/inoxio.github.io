@@ -1,0 +1,66 @@
+---
+layout: default
+ref: mminks
+lang: en
+permalink: /en/mminks/
+title: Meik Minks
+description: "Meik Minks - Delivery Engineer, Agile Tester and Scrum Master at inoxio Quality Services GmbH."
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+<section id="mminks-hero">
+  <div class="content">
+    <img class="avatar" src="{{ 'assets/img/mminks.png' | relative_url }}" alt="Meik Minks" />
+    <div class="intro">
+      <p class="eyebrow">{{ t.mminks.eyebrow }}</p>
+      <h1>Meik Minks</h1>
+      <p class="lead">{{ t.mminks.lead }}</p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:mminks@inoxio.de">{{ t.mminks.contact }}</a>
+        <a class="btn ghost" href="{{ '/assets/Profil_Meik_Minks.pdf' | relative_url }}">{{ t.mminks.cv }}</a>
+      </div>
+      <ul class="socials">
+        <li><a href="https://github.com/mminks">GitHub</a></li>
+        <li><a href="https://www.xing.com/profile/Meik_Minks/cv">XING</a></li>
+        <li><a href="https://www.instagram.com/meik_m_punkt/">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="mminks-hello">
+  <div class="content narrow">
+    {% capture my_include %}{% include sections/en/mminks/hello.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>
+
+<section id="mminks-profile">
+  <div class="content">
+    <p class="eyebrow">{{ t.mminks.expertise }}</p>
+    {% capture my_include %}{% include sections/en/mminks/profile.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>
+
+<section id="mminks-beliefs">
+  <div class="content">
+    <p class="eyebrow">{{ t.mminks.values }}</p>
+    {% capture my_include %}{% include sections/en/mminks/beliefs.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>
+
+<section id="mminks-cv">
+  <div class="content narrow">
+    {% capture my_include %}{% include sections/en/mminks/cv.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>
+
+<section id="mminks-projects">
+  <div class="content narrow">
+    <p class="eyebrow">{{ t.mminks.refs }}</p>
+    {% capture my_include %}{% include sections/en/mminks/projects.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>

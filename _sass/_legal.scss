@@ -1,14 +1,70 @@
-article.legal {
-  @include lg {
-    max-width: 950px;
-    margin: 1em auto;
-  }
-  margin: 1em 1em;
+.page-header {
+  padding: 3rem 0 3.5rem;
+  color: white;
+  background:
+    radial-gradient(circle at 85% 0%, rgba(214, 18, 92, 0.45), transparent 50%),
+    var(--primary-color);
 
+  h1 {
+    margin: 0;
+    color: white;
+  }
+  .eyebrow {
+    color: #ff7aa9;
+  }
+}
+
+article.legal {
+  position: relative;
+  max-width: 860px;
+  margin: -2rem 1rem 4rem;
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius);
+  background: white;
+  box-shadow: var(--shadow);
   font-size: 90%;
+  @include md {
+    margin: -2rem auto 4rem;
+    padding: 3rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: left;
+  }
+  h2 {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(35, 26, 61, 0.1);
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+  }
 
   table {
-    border-spacing: 20px;
-    font-size: 80%;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+    font-size: 95%;
+
+    th {
+      display: none;
+    }
+    td {
+      padding: 0.5rem 0.75rem;
+      vertical-align: top;
+      border-bottom: 1px solid rgba(35, 26, 61, 0.08);
+    }
+    td:first-child {
+      width: 35%;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+    tr:hover td {
+      background: var(--secondary-bg-color);
+    }
   }
 }

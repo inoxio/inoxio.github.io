@@ -7,6 +7,7 @@ section#team {
     );
 
   color: white;
+  padding: 5rem 0;
   h2 {
     color: white;
   }
@@ -42,4 +43,5 @@ img.avatar {
 
   border-radius: 50%;
   border: 4px solid var(--secondary-color);
+  box-shadow: var(--shadow);
 }
