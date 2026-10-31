@@ -1,25 +1,305 @@
-section#mminks-profile {
-  // background: var(--primary-color) linear-gradient(45deg, var(--secondary-color) 0%, var(--primary-color) 75%);
-  background: var(--primary-color);
+$mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+section#mminks-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 5rem 0;
   color: white;
-}
+  background:
+    radial-gradient(circle at 85% 10%, rgba(214, 18, 92, 0.45), transparent 45%),
+    radial-gradient(circle at 0% 100%, rgba(94, 80, 160, 0.5), transparent 50%),
+    var(--primary-color);
 
-section#mminks-hello {
-  background-color: white;
-
-  @include md {
-    img.avatar {
-      float: right;
+  .content {
+    @include md {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
     }
   }
 
-  a {
-    color: inherit;
+  .avatar {
+    display: block;
+    flex: 0 0 auto;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 2rem;
+    border-radius: 50%;
+    border: 4px solid var(--secondary-color);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.08), 0 20px 50px rgba(0, 0, 0, 0.4);
+    @include md {
+      margin: 0;
+    }
+  }
+
+  .intro {
+    text-align: center;
+    @include md {
+      text-align: left;
+    }
+
+    .eyebrow {
+      color: #ff7aa9;
+      @include md {
+        text-align: left;
+      }
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      color: white;
+      @include md {
+        text-align: left;
+      }
+    }
+    .lead {
+      margin: 0;
+      font-size: 120%;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+    @include md {
+      justify-content: flex-start;
+    }
+  }
+
+  .btn {
+    padding: 0.8em 1.6em;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 90%;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.2s;
+    &:hover {
+      transform: translateY(-2px);
+    }
+    &.primary {
+      background: var(--secondary-color);
+      color: white;
+      box-shadow: 0 8px 24px rgba(214, 18, 92, 0.5);
+    }
+    &.ghost {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: white;
+      &:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 1.5rem 0 0;
+    list-style: none;
+    @include md {
+      justify-content: flex-start;
+    }
+    a {
+      display: block;
+      padding: 0.25em 0.9em;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.1);
+      font-size: 75%;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+      &:hover {
+        background: var(--secondary-color);
+        color: white;
+      }
+    }
+  }
+}
+
+.content.narrow {
+  max-width: 800px;
+}
+
+section[id^="mminks-"] h4 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--primary-color);
+}
+
+section#mminks-hello {
+  h4 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+section#mminks-profile,
+section#mminks-beliefs {
+  h4 {
+    text-align: center;
+  }
+
+  h4 + p {
+    text-align: center;
+  }
+
+  ul {
+    display: grid;
+    gap: 1.25rem;
+    padding: 0;
+    margin: 2.5rem 0 0;
+    list-style: none;
+    @include md {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    li {
+      padding: 1.75rem;
+      border-radius: var(--radius);
+      font-size: 80%;
+      line-height: 1.65;
+      transition: transform 0.25s, box-shadow 0.25s;
+      &:hover {
+        transform: translateY(-4px);
+      }
+      strong:first-child {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 125%;
+        color: var(--primary-color);
+      }
+    }
   }
 }
 
 section#mminks-profile {
+  background: var(--secondary-bg-color);
+  ul li {
+    background: white;
+    border-top: 4px solid var(--secondary-color);
+    box-shadow: var(--shadow);
+    &:hover {
+      box-shadow: 0 18px 40px rgba(35, 26, 61, 0.2);
+    }
+  }
+}
+
+section#mminks-beliefs {
+  ul li {
+    background: var(--secondary-bg-color);
+    border: 1px solid rgba(35, 26, 61, 0.08);
+    &:hover {
+      box-shadow: var(--shadow);
+    }
+  }
+}
+
+section#mminks-cv {
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, var(--secondary-color), #8f0c45);
+  h4 {
+    color: white;
+  }
   a {
-    color: inherit;
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.6em 1.6em;
+    border-radius: 999px;
+    background: white;
+    color: var(--secondary-color);
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+section#mminks-hello {
+  a {
+    font-weight: 600;
+  }
+}
+
+section#mminks-projects {
+  h4:first-of-type {
+    text-align: center;
+  }
+
+  h4 + p {
+    text-align: center;
+  }
+
+  .content > p:has(> em > strong) {
+    position: relative;
+    margin: 3rem 0 0.5rem;
+    padding: 0.5rem 0 0 1.75rem;
+    border-left: 2px solid rgba(214, 18, 92, 0.3);
+    font-size: 105%;
+    &::before {
+      content: "";
+      position: absolute;
+      left: -8px;
+      top: 0.9rem;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--secondary-color);
+      box-shadow: 0 0 0 4px rgba(214, 18, 92, 0.15);
+    }
+    em,
+    strong {
+      font-style: normal;
+      color: var(--primary-color);
+    }
+  }
+
+  ul,
+  p:not(:has(> em > strong)) {
+    margin-left: 0;
+  }
+
+  .content > ul {
+    padding-left: 3rem;
+    font-size: 85%;
+    border-left: 2px solid rgba(214, 18, 92, 0.3);
+    margin: 0;
+    padding-bottom: 0.5rem;
+    li::marker {
+      color: var(--secondary-color);
+    }
+  }
+
+  .content > p:not(:has(> em > strong)):not(:has(> .tags)):not(:first-of-type) {
+    margin: 0;
+    padding: 0.25rem 0 0.5rem 1.75rem;
+    border-left: 2px solid rgba(214, 18, 92, 0.3);
+    font-size: 85%;
+    font-weight: 600;
+  }
+
+  .content > p:has(> .tags) {
+    margin: 0;
+    padding: 0.25rem 0 0.5rem 1.75rem;
+    border-left: 2px solid rgba(214, 18, 92, 0.3);
+  }
+
+  code {
+    display: inline-block;
+    margin: 0.2rem 0.2rem 0 0;
+    padding: 0.1em 0.7em;
+    border-radius: 999px;
+    background: rgba(214, 18, 92, 0.08);
+    font-family: $mono;
+    font-size: 65%;
+    color: var(--secondary-color);
   }
 }
