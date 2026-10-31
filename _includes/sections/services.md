@@ -1,3 +1,5 @@
+<p class="eyebrow">Was wir tun</p>
+
 ## Services
 
 Wir glauben fest daran, dass sich Qualität nicht nachträglich auf ein fertig
@@ -7,6 +9,12 @@ Entwicklungs&shy;prozesses genügend Aufmerksamkeit schenkt.
 
 Bei uns finden Sie deshalb Unterstützung in nahezu allen Bereichen der
 Software&shy;entwicklung.
+
+<div class="cards" markdown="1">
+
+<div class="card" markdown="1">
+<img class="icon" src="/assets/img/icon-agile.svg" alt="">
+<span class="num">01</span>
 
 ### Agile Entwicklung
 
@@ -23,6 +31,11 @@ die Qualität des Produktes sicher&shy;gestellt werden kann.
 
 _Wir entwickeln was der Kunde wirklich braucht. Das kann in vielen Fällen etwas
 anderes sein, als er ursprünglich wollte._
+</div>
+
+<div class="card" markdown="1">
+<img class="icon" src="/assets/img/icon-testing.svg" alt="">
+<span class="num">02</span>
 
 ### Agiles Testen
 
@@ -37,6 +50,11 @@ Mit einem prall gefüllten Werkzeugkoffer unterstützen unsere Kollegen durch:
 
 Nicht zu letzt wissen wir, wie eine Test&shy;pyramide balanciert wird und wo welche
 Aspekte am effizientesten getestet werden können.
+</div>
+
+<div class="card" markdown="1">
+<img class="icon" src="/assets/img/icon-devops.svg" alt="">
+<span class="num">03</span>
 
 ### DevOps
 
@@ -46,3 +64,6 @@ etablieren und den Betrieb der entwickelten Software sicherzustellen.
 
 Dabei haben wir Werkzeuge wie Kubernetes, AWS, Terraform, CloudFormation,
 GitHub Actions oder Serverless Functions jederzeit griffbereit.
+</div>
+
+</div>

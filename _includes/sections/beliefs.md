@@ -1,4 +1,11 @@
+<p class="eyebrow">Wofür wir stehen</p>
+
 ## Überzeugungen
+
+<div class="cards" markdown="1">
+
+<div class="card" markdown="1">
+<span class="num">01</span>
 
 ### Agilität
 
@@ -9,6 +16,10 @@ Agilität ist für uns nicht gleich&shy;bedeutend mit _Scrum by the book_. Wir
 verstehen Agilität als eine Sammlung von Praktiken und Methoden, die auf ein
 Team und dessen Bedürfnisse zugeschnitten sind und die sich mit diesem Team über
 die Zeit weiter&shy;entwickeln.
+</div>
+
+<div class="card" markdown="1">
+<span class="num">02</span>
 
 ### Cross-functional
 
@@ -20,6 +31,10 @@ Abhängig&shy;keiten das Voran&shy;kommen verzögern.
 Wir verstehen uns als Generalisten (T-shaped Personen), da wir so viele
 verschiedene Rollen auf wenige Team&shy;mitglieder verteilen können. Das hat zur
 Folge, dass die Teams klein, schnell, agil und schlag&shy;kräftig bleiben.
+</div>
+
+<div class="card" markdown="1">
+<span class="num">03</span>
 
 ### You build it, you run it
 
@@ -30,6 +45,10 @@ Zusammen mit dem Team übernehmen wir die kollektive Ver&shy;antwortung für uns
 entwickelten Funktionen, insbesondere während des Betriebs. Das Schaffen von
 Transparenz durch geeignete Lösungen wie Monitoring und Alarming helfen uns
 dabei, diese Aufgabe zu erfüllen.
+</div>
+
+<div class="card" markdown="1">
+<span class="num">04</span>
 
 ### Continuous Improvement
 
@@ -40,3 +59,6 @@ sind daher unser Mittel der Wahl.
 
 Kleine Experimente mit messbaren Resultaten helfen die Struktur und Arbeits&shy;weise
 eines Teams an dessen Bedürfnisse anzupassen.
+</div>
+
+</div>

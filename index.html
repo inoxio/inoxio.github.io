@@ -3,20 +3,26 @@ layout: default
 ref: index
 lang: de
 ---
-<section class="diagonals" id="hero">
+<section id="hero">
     <div class="content">
         {% include sections/hero.html %}
     </div>
 </section>
 
-<section class="diagonals" id="about">
+<section id="facts">
+    <div class="content">
+        {% for f in site.data.i18n[page.lang].facts %}<div><strong>{{ f.v }}</strong><span>{{ f.l }}</span></div>{% endfor %}
+    </div>
+</section>
+
+<section id="about">
     <div class="content">
         {% capture my_include %}{% include sections/about.md %}{% endcapture %}
         {{ my_include | markdownify }}
     </div>
 </section>
 
-<section class="diagonals" id="beliefs">
+<section id="beliefs">
     <div class="content">
         {% capture my_include %}{% include sections/beliefs.md %}{% endcapture %}
         {{ my_include | markdownify }}
@@ -30,7 +36,7 @@ lang: de
     </div>
 </section>
 
-<section class="diagonals" id="contact">
+<section id="contact">
     <div class="content">
         {% capture my_include %}{% include sections/contact.md %}{% endcapture %}
         {{ my_include | markdownify }}
